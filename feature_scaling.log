@@ -1,0 +1,23 @@
+2026-04-19 21:22:02,796 - INFO - Training data independent size : (8276, 56)
+2026-04-19 21:22:02,796 - INFO - Training data dependent size : (8276,)
+2026-04-19 21:22:02,796 - INFO - Testing data independent size : (1409, 56)
+2026-04-19 21:22:02,796 - INFO - Testing data dependent size : (1409,)
+2026-04-19 21:22:02,826 - INFO - Before Scaling Sample Data: 
+   SeniorCitizen  tenure  MonthlyCharges  TotalCharges  gender_Female  ...  DeviceProtection_od  TechSupport_od  StreamingTV_od  StreamingMovies_od  Contract_od
+0              0      21           64.85        1336.8            1.0  ...                  2.0             0.0             0.0                 2.0          1.0
+
+[1 rows x 56 columns]
+2026-04-19 21:22:02,913 - INFO - Test Accuracy : 0.7466288147622427
+2026-04-19 21:22:02,915 - INFO - Test Confusion Matrix : 
+[[755 281]
+ [ 76 297]]
+2026-04-19 21:22:02,919 - INFO - Classification report : 
+              precision    recall  f1-score   support
+
+           0       0.91      0.73      0.81      1036
+           1       0.51      0.80      0.62       373
+
+    accuracy                           0.75      1409
+   macro avg       0.71      0.76      0.72      1409
+weighted avg       0.80      0.75      0.76      1409
+

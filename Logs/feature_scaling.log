@@ -1,0 +1,16 @@
+2026-04-20 08:29:51,437 - INFO - ✔ Feature Scaling completed and Scaler saved.
+2026-04-20 08:29:59,725 - INFO - Test Accuracy : 0.7849538679914834
+2026-04-20 08:29:59,726 - INFO - Test Confusion Matrix : 
+[[859 177]
+ [126 247]]
+2026-04-20 08:29:59,733 - INFO - Classification report : 
+              precision    recall  f1-score   support
+
+           0       0.87      0.83      0.85      1036
+           1       0.58      0.66      0.62       373
+
+    accuracy                           0.78      1409
+   macro avg       0.73      0.75      0.73      1409
+weighted avg       0.80      0.78      0.79      1409
+
+2026-04-20 08:29:59,735 - INFO - ✔ XGBoost model trained and saved as Model.pkl.

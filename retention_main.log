@@ -1,0 +1,101 @@
+2026-04-19 21:22:00,675 - INFO - Total data_size : (7043, 22)
+2026-04-19 21:22:00,680 - INFO - Null values check: 
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+sim                 0
+Churn               0
+dtype: int64
+2026-04-19 21:22:00,684 - INFO - Train Data Size : (5634, 20)
+2026-04-19 21:22:00,684 - INFO - Test Data Size : (1409, 20)
+2026-04-19 21:22:00,686 - INFO - Data Cleaning and Numeric Conversion complete.
+2026-04-19 21:22:00,688 - INFO - Separated Numerical Columns: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges']
+2026-04-19 21:22:00,689 - INFO - Separated Categorical Columns: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'sim']
+2026-04-19 21:22:00,692 - INFO - Feature Selection stage completed successfully.
+2026-04-19 21:22:00,693 - INFO - Starting Categorical to Numerical conversion...
+2026-04-19 21:22:00,724 - INFO - ==================== Final Stage 1 Output ====================
+2026-04-19 21:22:00,724 - INFO - Final Training data shape : (5634, 56)
+2026-04-19 21:22:00,725 - INFO - Final Testing data shape : (1409, 56)
+2026-04-19 21:22:00,725 - INFO - Final Columns after Encoding: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'gender_Female', 'gender_Male', 'Partner_No', 'Partner_Yes', 'Dependents_No', 'Dependents_Yes', 'PhoneService_No', 'PhoneService_Yes', 'MultipleLines_No', 'MultipleLines_No phone service', 'MultipleLines_Yes', 'PaperlessBilling_No', 'PaperlessBilling_Yes', 'PaymentMethod_Bank transfer (automatic)', 'PaymentMethod_Credit card (automatic)', 'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check', 'sim_Dual Sim', 'sim_Dual Sim, 3G, 4G', 'sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi', 'sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, IR Blaster', 'sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, NFC', 'sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, NFC, IR Blaster', 'sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi', 'sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, IR Blaster', 'sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC', 'sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC, IR Blaster', 'sim_Dual Sim, 3G, 4G, VoLTE', 'sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi', 'sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, IR Blaster', 'sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, NFC', 'sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, NFC, IR Blaster', 'sim_Dual Sim, 3G, 4G, Wi-Fi', 'sim_Dual Sim, 3G, 4G, Wi-Fi, NFC', 'sim_Dual Sim, 3G, Wi-Fi', 'sim_Dual Sim, 4G, VoLTE, Wi-Fi', 'sim_Dual Sim, Wi-Fi', 'sim_Single Sim', 'sim_Single Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC', 'sim_Single Sim, 3G, 4G, VoLTE, Wi-Fi', 'sim_Single Sim, 3G, 4G, VoLTE, Wi-Fi, NFC', 'sim_Single Sim, 3G, 4G, Wi-Fi', 'sim_Single Sim, 3G, 4G, Wi-Fi, NFC', 'sim_Wi-Fi', 'InternetService_od', 'OnlineSecurity_od', 'OnlineBackup_od', 'DeviceProtection_od', 'TechSupport_od', 'StreamingTV_od', 'StreamingMovies_od', 'Contract_od']
+2026-04-19 21:22:00,726 - INFO - Null values check in final data: 
+SeniorCitizen                                                    0
+tenure                                                           0
+MonthlyCharges                                                   0
+TotalCharges                                                     0
+gender_Female                                                    0
+gender_Male                                                      0
+Partner_No                                                       0
+Partner_Yes                                                      0
+Dependents_No                                                    0
+Dependents_Yes                                                   0
+PhoneService_No                                                  0
+PhoneService_Yes                                                 0
+MultipleLines_No                                                 0
+MultipleLines_No phone service                                   0
+MultipleLines_Yes                                                0
+PaperlessBilling_No                                              0
+PaperlessBilling_Yes                                             0
+PaymentMethod_Bank transfer (automatic)                          0
+PaymentMethod_Credit card (automatic)                            0
+PaymentMethod_Electronic check                                   0
+PaymentMethod_Mailed check                                       0
+sim_Dual Sim                                                     0
+sim_Dual Sim, 3G, 4G                                             0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi                     0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, IR Blaster         0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, NFC                0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, NFC, IR Blaster    0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi                           0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, IR Blaster               0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC                      0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC, IR Blaster          0
+sim_Dual Sim, 3G, 4G, VoLTE                                      0
+sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi                               0
+sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, IR Blaster                   0
+sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, NFC                          0
+sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, NFC, IR Blaster              0
+sim_Dual Sim, 3G, 4G, Wi-Fi                                      0
+sim_Dual Sim, 3G, 4G, Wi-Fi, NFC                                 0
+sim_Dual Sim, 3G, Wi-Fi                                          0
+sim_Dual Sim, 4G, VoLTE, Wi-Fi                                   0
+sim_Dual Sim, Wi-Fi                                              0
+sim_Single Sim                                                   0
+sim_Single Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC                    0
+sim_Single Sim, 3G, 4G, VoLTE, Wi-Fi                             0
+sim_Single Sim, 3G, 4G, VoLTE, Wi-Fi, NFC                        0
+sim_Single Sim, 3G, 4G, Wi-Fi                                    0
+sim_Single Sim, 3G, 4G, Wi-Fi, NFC                               0
+sim_Wi-Fi                                                        0
+InternetService_od                                               0
+OnlineSecurity_od                                                0
+OnlineBackup_od                                                  0
+DeviceProtection_od                                              0
+TechSupport_od                                                   0
+StreamingTV_od                                                   0
+StreamingMovies_od                                               0
+Contract_od                                                      0
+dtype: int64
+2026-04-19 21:22:00,726 - INFO - Encoding and Data Merging complete.
+2026-04-19 21:22:00,726 - INFO - Number of Rows for Good Customer (1) before SMOTE: 1496
+2026-04-19 21:22:00,726 - INFO - Number of Rows for Bad Customer (0) before SMOTE: 4138
+2026-04-19 21:22:00,726 - INFO - Initial Training data shape: (5634, 56)
+2026-04-19 21:22:02,795 - INFO - Number of Rows for Good Customer (1) after SMOTE: 4138
+2026-04-19 21:22:02,796 - INFO - Number of Rows for Bad Customer (0) after SMOTE: 4138
+2026-04-19 21:22:02,796 - INFO - Balanced Training data shape: (8276, 56)
+2026-04-19 21:22:02,921 - INFO - Data Balancing stage completed successfully.

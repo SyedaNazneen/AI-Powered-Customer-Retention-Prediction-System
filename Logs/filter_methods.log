@@ -1,0 +1,15 @@
+2026-04-20 08:29:49,812 - INFO - Before Train Columns : (5634, 4) 
+ : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges'], dtype='object')
+2026-04-20 08:29:49,813 - INFO - Before Test Columns : (1409, 4) 
+ : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges'], dtype='object')
+2026-04-20 08:29:49,814 - INFO - Number of Good Columns : 4 : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges'], dtype='object')
+2026-04-20 08:29:49,814 - INFO - Number of Bad Columns : 0 : Index([], dtype='object')
+2026-04-20 08:29:49,814 - INFO - ====================Hypothesis Testing=================================
+2026-04-20 08:29:49,816 - INFO - P-Values: 
+SeniorCitizen      1.288715e-28
+tenure            3.780534e-157
+MonthlyCharges     2.936101e-46
+TotalCharges       1.355396e-48
+dtype: float64
+2026-04-20 08:29:49,816 - INFO - After Train Columns : (5634, 4)
+2026-04-20 08:29:49,817 - INFO - After Test Columns : (1409, 4)

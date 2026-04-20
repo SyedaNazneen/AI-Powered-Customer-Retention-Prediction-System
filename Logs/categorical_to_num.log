@@ -1,0 +1,68 @@
+2026-04-20 08:29:49,817 - INFO - Before X_train_cat shape: (5634, 16):
+:Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2026-04-20 08:29:49,817 - INFO - Before X_test_cat shape: (5634, 16):
+:Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2026-04-20 08:29:49,831 - INFO - After Nominal Encoding shape: (5634, 52)
+2026-04-20 08:29:49,843 - INFO - Final Categorical to Numerical shape: (5634, 52)
+2026-04-20 08:29:49,845 - INFO - Train Null values check: 
+gender_Female                                                    0
+gender_Male                                                      0
+Partner_No                                                       0
+Partner_Yes                                                      0
+Dependents_No                                                    0
+Dependents_Yes                                                   0
+PhoneService_No                                                  0
+PhoneService_Yes                                                 0
+MultipleLines_No                                                 0
+MultipleLines_No phone service                                   0
+MultipleLines_Yes                                                0
+PaperlessBilling_No                                              0
+PaperlessBilling_Yes                                             0
+PaymentMethod_Bank transfer (automatic)                          0
+PaymentMethod_Credit card (automatic)                            0
+PaymentMethod_Electronic check                                   0
+PaymentMethod_Mailed check                                       0
+sim_Dual Sim                                                     0
+sim_Dual Sim, 3G, 4G                                             0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi                     0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, IR Blaster         0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, NFC                0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Vo5G, Wi-Fi, NFC, IR Blaster    0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi                           0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, IR Blaster               0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC                      0
+sim_Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC, IR Blaster          0
+sim_Dual Sim, 3G, 4G, VoLTE                                      0
+sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi                               0
+sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, IR Blaster                   0
+sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, NFC                          0
+sim_Dual Sim, 3G, 4G, VoLTE, Wi-Fi, NFC, IR Blaster              0
+sim_Dual Sim, 3G, 4G, Wi-Fi                                      0
+sim_Dual Sim, 3G, 4G, Wi-Fi, NFC                                 0
+sim_Dual Sim, 3G, Wi-Fi                                          0
+sim_Dual Sim, 4G, VoLTE, Wi-Fi                                   0
+sim_Dual Sim, Wi-Fi                                              0
+sim_Single Sim                                                   0
+sim_Single Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC                    0
+sim_Single Sim, 3G, 4G, VoLTE, Wi-Fi                             0
+sim_Single Sim, 3G, 4G, VoLTE, Wi-Fi, NFC                        0
+sim_Single Sim, 3G, 4G, Wi-Fi                                    0
+sim_Single Sim, 3G, 4G, Wi-Fi, NFC                               0
+sim_Wi-Fi                                                        0
+InternetService_od                                               0
+OnlineSecurity_od                                                0
+OnlineBackup_od                                                  0
+DeviceProtection_od                                              0
+TechSupport_od                                                   0
+StreamingTV_od                                                   0
+StreamingMovies_od                                               0
+Contract_od                                                      0
+dtype: int64
